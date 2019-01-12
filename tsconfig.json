@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dst/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowUnusedLabels": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "pretty": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["esnext", "dom"],
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
